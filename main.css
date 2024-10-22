@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 30px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.header_btn{
+    width: 243px;
+    border-radius: 10px;
+    padding: 14px 0;
+    border-radius: 10px;
+
+box-shadow: 0px 4px 4px 0px rgb(218, 211, 255);
+background-color: #009ff5b5;
+color: aliceblue;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+border: none;
+}
+.header_link{
+    text-decoration: none;
+}
+.header_p{
+    color: aliceblue;
+    font-size: 20px;
+      font-weight: 700;
+      line-height: 23px;
+      text-shadow: 0px 4px 4px black;
+}
+.header_left{
+    display: flex;
+    gap: 68px;
+    align-items: center;
+}
+.header_btn::before{
+    background-image: url(./image/image\ 4\ \(1\).png);
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+.wrapper{
+    background-image: url(./image/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.language{
+            width: 184px ;
+            text-shadow: 0px 4px 4px #000000;
+            color: aliceblue;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 23px;
+            background-color: transparent;
+            border: none        ;
+}
+.hero{
+    padding-top: 163px;
+    padding-bottom: 126px;
+}
+.hero__texbox{  
+    width: 604px;
+    margin: 0 auto;
+    box-sizing: border-box;
+border: 11px solid #5a5555;
+border-radius: 50px;
+padding: 30px 0;
+background: #ffc611;
+
+}
+.hero__title{
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0%;
+text-align: center;
+text-shadow: 0px 4px 4px rgb(0, 71, 255);
+}
+.hero__box{
+    text-align: center;
+width: 361px;
+box-shadow: 8px 7px 20px 0px rgb(255, 255, 255);
+background: rgb(31, 31, 31);
+}
+.hero__heading{
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 36px;
+font-weight: 600;
+line-height: 42px;
+text-align: center;
+text-shadow: 0px 4px 4px #ffc200;
+text-align: center;
+padding: 15px 0;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 132px;
+}
+.h1{
+    padding-top: 61px;
+}
